@@ -9,6 +9,6 @@ export class DataService {
   constructor() {}
 
   getData() {
-    return of('WebTechTalk').pipe(delay(3000));
+    return of('SubscribeChannel').pipe(delay(100));
   }
 }
